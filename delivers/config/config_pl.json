@@ -169,7 +169,7 @@
 "colorCart":null,
 "colorIcon":"ff7a7b7f",
 "colorActiveIcon":"ffff672d",
-"iconSize":22.968195913186673,
+"iconSize":23.0,
 "indicatorStyle":"material",
 "showFloatingClip":false,
 "showFloating":false,
@@ -188,6 +188,13 @@
 "marginLeft":0.0,
 "marginRight":0.0,
 "bottomBarStyle":"static",
+"boxShadow":{
+"blurRadius":10.0,
+"colorOpacity":0.1,
+"spreadRadius":15.151515151515152,
+"x":0.0,
+"y":10.0
+},
 "alwaysShowTabBar":false,
 "TabBarIndicator":{
 "height":0.0,
@@ -202,7 +209,7 @@
 "strokeWidth":0.0,
 "radius":0.0,
 "distanceFromCenter":0.0,
-"paintingStyle":"fill"
+"paintingStyle":"stroke"
 },
 "TabBarFloating":{
 "position":2,
@@ -236,7 +243,7 @@
 "defaultTab":false,
 "fullscreen":false,
 "showOriginalColor":false,
-"categoryLayout":"column",
+"categoryLayout":"grid",
 "parallax":false,
 "parallaxImageRatio":1.2,
 "showSearch":true
