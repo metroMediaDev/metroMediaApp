@@ -62,7 +62,7 @@
 "name":"Kino",
 "enableBackground":false,
 "padding":16.0,
-"innerPadding":16.0,
+"innerPadding":0.0,
 "radius":0.0,
 "hideTitle":false,
 "hideAuthor":false,
