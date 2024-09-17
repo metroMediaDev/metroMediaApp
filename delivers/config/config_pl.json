@@ -70,7 +70,7 @@
 "hideComment":false,
 "showOnlyImage":false,
 "hMargin":6.0,
-"vMargin":15.0,
+"vMargin":0.0,
 "isSnapping":false,
 "cardDesign":"simple",
 "limit":20,
