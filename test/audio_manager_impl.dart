@@ -40,10 +40,10 @@ class AudioManagerImpl extends AudioManager {
   AudioManagerImpl() {
     timeCreate = '${DateTime.now()}';
     _autoPlay = true;
- //    _loadDataPlaylistFromStorage();
+    _loadDataPlaylistFromStorage();
     init();
   }
-/*
+
  void _loadDataPlaylistFromStorage() {
      final dataPlaylist = _storage.getString(listAudioQueueKey);
      var playlist = PlaylistAudio(
@@ -61,7 +61,7 @@ class AudioManagerImpl extends AudioManager {
      }
   
      _data = ValueNotifier(playlist);
-   }*/
+   }
 
   void init() {
     _listenToChangesInPlaylist();
@@ -218,7 +218,7 @@ class AudioManagerImpl extends AudioManager {
 
   @override
   void savePlaylist() {
- //  _storage.setString(listAudioQueueKey, data.value.toString());
+ _storage.setString(listAudioQueueKey, data.value.toString());
   }
 
   @override
